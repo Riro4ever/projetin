@@ -10,3 +10,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ### Env variables should start with "VITE_"
 ### Set all files to indent using 4 spaces
 ### All new env entries should be shown in .env.example, but only filled if it's not sensitive
+
+
+### Font awesome sample <fa :icon="['far', 'circle']" size="7x" color="blue"/>

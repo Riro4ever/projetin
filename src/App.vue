@@ -1,11 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Test from './components/Test.vue'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
-  <Test msg="Test"/>
-  <!-- Implementar roteamento e paginas para testar -->
+  <Navbar></Navbar>
+  <router-view/>
 </template>
-
